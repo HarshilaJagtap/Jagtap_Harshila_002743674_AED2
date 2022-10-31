@@ -6,7 +6,7 @@ package entities;
 
 /**
  *
- * @author HarshilaJagtap
+ * @author hashila
  */
 public class Person {
     String id, name, phone, address, pincode, department, doctorname, doctoruuid, hospitalname, hospitalid, hospitaluuid, role, password, doctorid, status;
@@ -71,7 +71,10 @@ public class Person {
     public String getName() {
         return name;
     }
-
+    
+    public void setName(PersonDirectory persondirectory, String personName) {
+        this.name = name;
+    }
     public void setName(String name) {
         this.name = name;
     }
@@ -87,7 +90,9 @@ public class Person {
     public String getAddress() {
         return address;
     }
-
+    public void setAddress(House house, String housePerson) {
+        this.address = address;
+    }
     public void setAddress(String address) {
         this.address = address;
     }

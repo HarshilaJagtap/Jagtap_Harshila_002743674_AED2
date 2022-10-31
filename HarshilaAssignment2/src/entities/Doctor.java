@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author HarshilaJagtap
+ * @author hashila
  */
 public class Doctor {
     String hospitalUUID, hospitalId, hospitalName, doctorUUID, doctorId, doctorName, doctorPhone, departmentName, password;
@@ -65,7 +65,10 @@ public class Doctor {
     public String getDoctorName() {
         return doctorName;
     }
-
+    
+    public void setDoctorName (DoctorDirectory doctordirectory, String doctorName) {
+        this.doctorName = doctorName;  
+    }
     public void setDoctorName(String doctorName) {
         this.doctorName = doctorName;
     }

@@ -6,10 +6,11 @@ package entities;
 
 /**
  *
- * @author HarshilaJagtap
+ * @author hashila
  */
 public class Encounter {
 String encounterUUId, bloodpressure, temperature, timestamp, patientID, patientUUID, patientName;
+    private String patientVitals;
 
     public String getPatientID() {
         return patientID;
@@ -50,7 +51,10 @@ String encounterUUId, bloodpressure, temperature, timestamp, patientID, patientU
     public void setBloodpressure(String bloodpressure) {
         this.bloodpressure = bloodpressure;
     }
-
+    
+    public void setBloodpressure (VitalSigns vitalsigns, String patientVitals) {
+        this.patientVitals = patientVitals;
+    }
     public String getTemperature() {
         return temperature;
     }
@@ -58,7 +62,10 @@ String encounterUUId, bloodpressure, temperature, timestamp, patientID, patientU
     public void setTemperature(String temperature) {
         this.temperature = temperature;
     }
-
+    
+    public void setTemperature (VitalSigns vitalsigns, String patientVitals) {
+        this.patientVitals = patientVitals;
+    }
     public String getTimestamp() {
         return timestamp;
     }

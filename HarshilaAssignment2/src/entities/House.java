@@ -8,14 +8,15 @@ package entities;
  *
  * @author hashila
  */
-public class HospitalDirectory {
-    String hospitalName;
+public class House {
+    String housePerson;
 
-    public String getHospitalName() {
-        return hospitalName;
+    public String getHousePerson() {
+        return housePerson;
     }
 
-    public void setHospitalName(String hospitalName) {
-        this.hospitalName = hospitalName;
+    public void setHousePerson(String housePerson) {
+        this.housePerson = housePerson;
     }
+
 }

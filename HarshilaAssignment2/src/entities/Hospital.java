@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author HarshilaJagtap
+ * @author hashila
  */
 public class Hospital {
     String hospitalUUID, hospitalID, hospitalName, hospitalAddress, hospitalCity, hospitalPincode, hospitalCommunity, adminusername, adminpassword;
@@ -106,7 +106,9 @@ public class Hospital {
     public String getHospitalCommunity() {
         return hospitalCommunity;
     }
-
+    public void setHospitalCommunity(Community hospitalcommunity, String hospitalCommunity) {
+        this.hospitalCommunity = hospitalCommunity;
+    }
     public void setHospitalCommunity(String hospitalCommunity) {
         this.hospitalCommunity = hospitalCommunity;
     }

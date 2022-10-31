@@ -6,7 +6,7 @@ package entities;
 
 /**
  *
- * @author HarshilaJagtap
+ * @author hashila
  */
 public class City {
     String cityName;
