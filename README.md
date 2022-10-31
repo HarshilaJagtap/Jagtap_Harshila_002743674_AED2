@@ -10,6 +10,7 @@ encounters. Each Encounter will have a single Vital Sign component.
  
 Requirement 
 • Implement an application based on the given model with Java swing.  
+
 o Patients are able to look for a doctor under the near hospitals 
 o Doctors are able to diagnose and leave encounter record based on vital signs 
 o Community admins are able to modify the information under a community 
