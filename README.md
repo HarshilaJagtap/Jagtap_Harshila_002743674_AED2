@@ -1,7 +1,12 @@
-# Jagtap_Harshila_002743674_AED2
+# Name : Harshila Jagtap
+# NEU ID : 002743674
 
-![Class Diagram](https://github.com/harshilaNEU/Jagtap_Harshila_002743674_AED2/blob/main/Diagrams/ClassDiagram.jpeg)
 
+##  Hospital Management System - AED Assignment 2
+
+
+
+## Requirements : 
 
 Context 
  
@@ -34,3 +39,19 @@ FYI:https://www.codecademy.com/articles/what-is-crud
 hospital administrator, community administrator, etc)  
 
 • Draw a class diagram and sequence diagram and write the description of your project. 
+
+## Introduction 
+
+Hospital Management System is an integrated information system for managing all aspects of a hospital’s operations. Roles that can access the system are SuperAdmin, Admin, Doctor, CommunityAdmin.
+
+### Requirement Diagram
+
+![Requirement Diagram](https://github.com/harshilaNEU/Jagtap_Harshila_002743674_AED2/blob/main/Diagrams/RequirementDiagram.jpeg)
+
+### Class Diagram
+
+![Class Diagram](https://github.com/harshilaNEU/Jagtap_Harshila_002743674_AED2/blob/main/Diagrams/ClassDiagram.jpeg)
+
+### Sequence Diagram
+
+![Sequence Diagram](https://github.com/harshilaNEU/Jagtap_Harshila_002743674_AED2/blob/main/Diagrams/SequenceDiagram.jpeg)
