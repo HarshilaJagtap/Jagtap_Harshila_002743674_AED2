@@ -46,7 +46,7 @@ Hospital Management System is an integrated information system for managing all 
 
 ### Requirement Diagram
 
-![Requirement Diagram](https://github.com/harshilaNEU/Jagtap_Harshila_002743674_AED2/blob/main/Diagrams/RequirementDiagram.png)
+![Requirement Diagram](https://github.com/harshilaNEU/Jagtap_Harshila_002743674_AED2/blob/main/Diagrams/Requirement%20Diagram.png)
 
 ### Class Diagram
 
